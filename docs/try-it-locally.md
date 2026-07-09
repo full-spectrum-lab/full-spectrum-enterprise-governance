@@ -35,6 +35,7 @@ See also:
 
 - [deployment-patterns.md](./deployment-patterns.md)
 - [data-redaction-guide.md](./data-redaction-guide.md)
+- [local-trial-case-pack.md](./local-trial-case-pack.md)
 
 ## 4. Map a minimal input
 
