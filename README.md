@@ -50,6 +50,8 @@ Unless explicitly stated otherwise, public case materials are synthetic or desen
 
 - [docs/ai-customer-service-governance.md](./docs/ai-customer-service-governance.md)
 - [docs/deployment-patterns.md](./docs/deployment-patterns.md)
+- [docs/try-it-locally.md](./docs/try-it-locally.md)
+- [docs/ecommerce-knowledge-source-adapter-spec-v0.1.md](./docs/ecommerce-knowledge-source-adapter-spec-v0.1.md)
 - [docs/enterprise-faq.md](./docs/enterprise-faq.md)
 - [cases/refund-overcommitment/README.md](./cases/refund-overcommitment/README.md)
 - [cases/ecommerce-knowledge-conflict/README.md](./cases/ecommerce-knowledge-conflict/README.md)
