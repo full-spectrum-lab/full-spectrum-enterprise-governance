@@ -1,0 +1,17 @@
+{
+  "profile_id": "industrial-tightening-evidence-gap",
+  "profile_version": "0.1.0-designed",
+  "classification": "SYNTHETIC_DESIGNED_CASE",
+  "rule": {
+    "when": "mes.operation.status == COMPLETED AND tightening.matching_result_count == 0",
+    "reason_code": "INDUSTRIAL.CRITICAL_TIGHTENING_EVIDENCE_MISSING",
+    "risk_level": "HIGH",
+    "uncertainty": "SOURCE_EVIDENCE_INCOMPLETE",
+    "required_next_step": "HUMAN_REVIEW_AND_SOURCE_VERIFICATION"
+  },
+  "execution_boundary": {
+    "observation_only": true,
+    "automatic_business_action": false,
+    "production_writeback": false
+  }
+}

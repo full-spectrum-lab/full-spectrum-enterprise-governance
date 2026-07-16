@@ -1,0 +1,14 @@
+{
+  "observation_id": "OBS-SYNTH-R04-001",
+  "classification": "SYNTHETIC_EXPECTED_OUTPUT",
+  "case_id": "SYNTH-R04-001",
+  "risk_type": "CROSS_SYSTEM_EVIDENCE_GAP",
+  "risk_level": "HIGH",
+  "reason_code": "INDUSTRIAL.CRITICAL_TIGHTENING_EVIDENCE_MISSING",
+  "state": "ACTION_PROPOSED",
+  "facts_summary": "MES reports critical tightening complete, but no matching tightening result exists in the authorized query window.",
+  "uncertainty": "The fixture cannot distinguish delayed ingestion, mapping error, source outage or an actually missing tightening operation.",
+  "recommended_next_step": "A customer-authorized human reviewer verifies MES, tightening source health, identifier mapping and the physical quality record.",
+  "automatic_action": null,
+  "evidence_manifest_ref": "evidence-manifest.json"
+}

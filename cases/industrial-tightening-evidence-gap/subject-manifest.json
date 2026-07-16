@@ -1,0 +1,18 @@
+{
+  "manifest_id": "SUBJECT-SYNTH-R04-001",
+  "classification": "SYNTHETIC_DESIGNED_CASE",
+  "subjects": [
+    {
+      "subject_id": "observer-local-demo",
+      "type": "SERVICE",
+      "capabilities": ["read_normalized_facts", "create_observation", "store_evidence"],
+      "prohibited_capabilities": ["write_mes", "write_qms", "control_plc", "stop_line", "release_quality"]
+    },
+    {
+      "subject_id": "human-reviewer-demo",
+      "type": "HUMAN_ROLE",
+      "capabilities": ["review_observation", "request_source_verification", "record_disposition"],
+      "prohibited_capabilities": ["close_without_local_verification"]
+    }
+  ]
+}

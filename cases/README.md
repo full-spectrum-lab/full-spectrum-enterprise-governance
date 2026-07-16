@@ -6,6 +6,9 @@ Current early priority:
 
 - refund over-commitment
 - ecommerce knowledge-source conflict
+- industrial tightening evidence gap (synthetic designed case)
+
+Start the industrial path at [industrial-tightening-evidence-gap](./industrial-tightening-evidence-gap/README.md).
 
 All public case packages should keep the same structure where possible:
 

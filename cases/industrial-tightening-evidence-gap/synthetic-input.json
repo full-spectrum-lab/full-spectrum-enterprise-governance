@@ -1,0 +1,28 @@
+{
+  "case_id": "SYNTH-R04-001",
+  "classification": "SYNTHETIC_DESIGNED_CASE",
+  "observed_at": "2026-01-15T08:30:00Z",
+  "asset": {
+    "plant_ref": "PLANT-DEMO-01",
+    "line_ref": "LINE-DEMO-A",
+    "station_ref": "STATION-TIGHTEN-07",
+    "work_item_ref": "VIN-SYNTH-0001"
+  },
+  "mes_fact": {
+    "source": "MES-SIM",
+    "operation": "critical_tightening",
+    "status": "COMPLETED",
+    "reported_at": "2026-01-15T08:29:20Z"
+  },
+  "tightening_fact": {
+    "source": "TIGHTENING-SIM",
+    "query_window": {
+      "from": "2026-01-15T08:24:20Z",
+      "to": "2026-01-15T08:30:00Z"
+    },
+    "matching_result_count": 0,
+    "result": null
+  },
+  "collection_mode": "AUTHORIZED_READ_ONLY",
+  "customer_data": false
+}

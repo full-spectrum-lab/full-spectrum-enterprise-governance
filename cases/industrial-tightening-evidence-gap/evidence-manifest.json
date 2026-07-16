@@ -1,0 +1,19 @@
+{
+  "evidence_manifest_id": "EVID-SYNTH-R04-001",
+  "classification": "SYNTHETIC_DESIGNED_EVIDENCE",
+  "case_id": "SYNTH-R04-001",
+  "source_refs": [
+    {"source": "MES-SIM", "fact_path": "synthetic-input.json#/mes_fact"},
+    {"source": "TIGHTENING-SIM", "fact_path": "synthetic-input.json#/tightening_fact"}
+  ],
+  "version_refs": {
+    "profile": "industrial-tightening-evidence-gap@0.1.0-designed",
+    "adapter": "NOT_IMPLEMENTED",
+    "schema": "CASE_LOCAL_DRAFT",
+    "engine": "NOT_EXECUTED",
+    "observer": "NOT_EXECUTED"
+  },
+  "replay_capability": "EXPLANATORY_ONLY",
+  "integrity_status": "FIXTURE_FILES_PRESENT_NOT_RUNTIME_ATTESTED",
+  "production_evidence": false
+}

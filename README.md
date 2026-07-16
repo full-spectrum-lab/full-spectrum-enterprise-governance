@@ -1,6 +1,6 @@
 # Full Spectrum Enterprise Governance
 
-Enterprise-facing governance packages, inspection cases, deployment patterns, and human-review workflows for AI customer-service and related business scenarios.
+Enterprise-facing governance packages, inspection cases, deployment patterns, and human-review workflows for AI customer-service and industrial observation scenarios.
 
 This repository is the business application layer of the Full Spectrum Lab ecosystem.
 
@@ -25,6 +25,7 @@ The first public scenario cluster is:
 - ecommerce knowledge-source conflict
 - non-invasive dialogue inspection
 - human review trigger and audit reporting
+- a synthetic industrial tightening-evidence gap
 
 ## What this repository includes
 
@@ -45,6 +46,12 @@ This repository does not claim:
 - that the examples here replace enterprise business systems
 
 Unless explicitly stated otherwise, public case materials are synthetic or desensitized reconstructions for governance design and review.
+
+## Industrial public entry
+
+The first industrial case is intentionally small: [MES reports a critical tightening operation complete while the authorized tightening feed contains no matching result](./cases/industrial-tightening-evidence-gap/README.md).
+
+It is labeled **SYNTHETIC · DESIGNED CASE · NOT PRODUCTION VALIDATED · NO NAMED CUSTOMER**. The package demonstrates the intended evidence and human-review boundary; it is not yet an executable industrial adapter or a claim of factory deployment.
 
 ## Try the first case
 
@@ -80,6 +87,7 @@ The observer produces warnings, recommendations, reports, and audit references. 
 - [docs/enterprise-faq.md](./docs/enterprise-faq.md)
 - [cases/refund-overcommitment/README.md](./cases/refund-overcommitment/README.md)
 - [cases/ecommerce-knowledge-conflict/README.md](./cases/ecommerce-knowledge-conflict/README.md)
+- [cases/industrial-tightening-evidence-gap/README.md](./cases/industrial-tightening-evidence-gap/README.md)
 
 ## Related repositories
 
