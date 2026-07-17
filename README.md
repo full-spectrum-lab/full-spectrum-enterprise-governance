@@ -1,5 +1,7 @@
 # Full Spectrum Enterprise Governance
 
+[![Public case boundary](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/actions/workflows/public-case-check.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/actions/workflows/public-case-check.yml)
+
 Enterprise-facing governance packages, inspection cases, deployment patterns, and human-review workflows for AI customer-service and industrial observation scenarios.
 
 This repository is the business application layer of the Full Spectrum Lab ecosystem.
@@ -52,6 +54,8 @@ Unless explicitly stated otherwise, public case materials are synthetic or desen
 The first industrial case is intentionally small: [MES reports a critical tightening operation complete while the authorized tightening feed contains no matching result](./cases/industrial-tightening-evidence-gap/README.md).
 
 It is labeled **SYNTHETIC · DESIGNED CASE · NOT PRODUCTION VALIDATED · NO NAMED CUSTOMER**. The package demonstrates the intended evidence and human-review boundary; it is not yet an executable industrial adapter or a claim of factory deployment.
+
+The [public-case boundary gate](./tools/validate_public_cases.py) verifies fixture structure and the read-only/no-writeback safety claims. Passing this gate means `DESIGNED / FIXTURE-VALIDATED`; it does **not** mean the Adapter, Engine path, Observer path or production pilot has been implemented.
 
 ## Try the first case
 
